@@ -6,7 +6,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "start": "node src/main.js"
+    "start": "electron ."
   },
   "license": "MIT",
   "type": "module",
