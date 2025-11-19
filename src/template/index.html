@@ -7,11 +7,15 @@
   </head>
   <body>
     <div>
-      <h1>Hello, World!</h1>
-      <p>
-        This app was made with
-        <a href="https://www.electronjs.org/">Electron.</a>
-      </p>
+      <h1>Todo List</h1>
+      <form>
+        <input type="text" id="todo-input" placeholder="Enter a new todo" />
+        <button type="submit" id="add-todo-button">Add Todo</button>
+      </form>
+      <ul id="todo-list">
+        <!--The todos going to be displayed here-->
+      </ul>
     </div>
+    <script src="./static/script.js"></script>
   </body>
 </html>

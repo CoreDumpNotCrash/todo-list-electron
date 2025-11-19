@@ -8,6 +8,7 @@ function createWindow() {
     width: 800,
     height: 600,
     autoHideMenuBar: true,
+    resizable: false,
   });
   mainWindow.loadFile(path.join(__dirname, "template", "index.html"));
 }
