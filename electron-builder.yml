@@ -1,0 +1,18 @@
+appId: com.coredumpnotcrash.todolist
+productName: To-do List Manager
+directories:
+  output: dist
+files:
+  - "**/*"
+mac:
+  target:
+    - dmg
+    - zip
+win:
+  target:
+    - nsis
+    - zip
+linux:
+  target:
+    - AppImage
+    - tar.gz
